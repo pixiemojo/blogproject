@@ -1,0 +1,138 @@
+*{
+    background-color: rgb(206, 250, 250);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    margin: 0;
+}
+.container{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 100%;
+    grid-template-rows: 8% 50% 25% 8%;
+    grid-template-areas: 
+    "hd"
+    "main" 
+    "sd"
+    "ft";
+}
+a{
+    text-decoration: none;
+    font-size: .8rem;
+    font-weight: bolder;
+}
+a:hover{
+    color:crimson;
+    font-weight: bolder;
+    font-size: 1.1rem;
+}
+#logo{
+    height: 70px;
+    margin-right: 60px;
+    border-radius: 50px;
+}
+#stars{
+    opacity: 0.5;
+    text-align: center;
+    border-radius: 5%;
+}
+.box{
+    padding: 10px;
+    }
+h1{
+    font-family: 'Roboto', sans-serif !important;
+    padding: 30px;
+    }
+h2{
+    margin-bottom: 15px;
+    }
+h6{
+    color:crimson;
+    margin-top: 25px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    grid-area: hd;
+    padding-top: 15px;
+    padding-left: 50px;
+  }
+.content{
+    grid-area: main;
+    font-family: 'Montserrat',sans-serif;
+    text-align: center;
+    border: 1px solid #FBFAF5;
+    border-radius: 15px;
+  }
+.sidebar{
+    grid-area: sd;
+    text-align: center;
+  }
+p{
+    margin: 5%;
+    padding: 5%;
+}
+#post{
+    font-size: 1.15rem;
+    margin: 50px;
+}
+.blurb{
+    font-size: .8rem;
+}
+#quote{
+    font-size: .75rem;
+}
+#signature{
+    font-weight: bolder;
+    color: crimson;
+    font-size: .8rem;
+}
+#title{
+    color:crimson
+}
+.footer{
+    grid-area: ft;  
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    height: 200px;
+  }
+#footHeading{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+.icons{display: flex;
+    justify-content: center;
+}
+#fbook{
+    color: rgb(66, 103, 178);
+    padding-right: 40px;
+    transition: all 0.3s;
+}
+#fbook :hover{
+    color:crimson;
+    font-size: 1.1rem;
+    transform: scale(2.0) rotate(15deg);
+}
+#tweet{
+    color:rgb(0, 132, 180);
+    transition: all 0.3s;
+}
+#tweet :hover{
+    color:crimson;
+    font-size: 1.1rem;
+    transform: scale(2.0) rotate(15deg);
+}
+@media(min-width: 700px){
+.container{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: 100px 600px 150px;
+    grid-template-areas: 
+    "hd hd hd hd hd hd hd hd"
+    "main main main main main main main sd"
+    "ft ft ft ft ft ft ft ft";
+}
+}

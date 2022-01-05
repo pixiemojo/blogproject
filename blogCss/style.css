@@ -1,14 +1,7 @@
- * { 
-    background-color: rgb(206, 250, 250);
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.4rem;
-    margin: 0;
-}
-a{
-    text-decoration: none;
-    font-size: .8rem;
-    font-weight: bolder;
-}
+ @import '1.css';
+ @import 'social.css';
+ @import 'ff.css';
+ 
 a:hover{
     color:crimson;
     font-weight: bolder;
@@ -45,7 +38,7 @@ img{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    font-family: 'Roboto', sans-serif !important;
+    /* font-family: 'Roboto', sans-serif !important; */
     grid-area:hd;
     padding-top: 15px;
     padding-left: 50px;
@@ -56,7 +49,7 @@ img{
     grid-area: title;
     text-align: center;
     color: crimson;  
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
     padding:20px;
     font-size:2rem;
 }
@@ -135,7 +128,7 @@ footer{
     font-size: 1.8rem;
     grid-area: foot;
     margin-top: 25px;
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
 }
 #footHeading{
     display: flex;

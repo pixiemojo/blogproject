@@ -1,0 +1,20 @@
+
+#fbook{
+    color: rgb(66, 103, 178);
+    padding-right: 40px;
+    transition: all 0.3s;
+}
+#fbook :hover{
+    color:crimson;
+    font-size: 1.1rem;
+    transform: scale(2.0) rotate(15deg);
+}
+#tweet{
+    color:rgb(0, 132, 180);
+    transition: all 0.3s;
+}
+#tweet :hover{
+    color:crimson;
+    font-size: 1.1rem;
+    transform: scale(2.0) rotate(15deg);
+}
